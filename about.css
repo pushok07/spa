@@ -1,0 +1,70 @@
+header {
+    width: 1000px;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: auto;
+    list-style-type: none;
+    position: fixed;
+    background-color: rgb(210, 183, 229);
+    width:100%;
+    
+}
+.logo{
+    width: 90px;
+}
+
+
+header nav ul li a {
+    color:black;
+    text-decoration: none;
+    margin:  20px;
+    border: 2px solid transparent;
+    padding: 8px;
+    border-radius: 25px;
+} 
+
+header nav ul li a:hover {
+    background-color:rgb(129, 90, 192);
+    color: black;
+    transition: all .5s;
+}
+.about-section {
+    background: url(https://t3.ftcdn.net/jpg/06/31/63/40/360_F_631634060_ACfRh22AXQGMf0y6G3JvVCohcPqL4l7z.jpg) no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+footer {
+    background-color: #7a2d6a;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
